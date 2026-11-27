@@ -24,7 +24,7 @@
 
   // The OAuth provider's token store. Create it, then paste the id:
   //   npx wrangler kv namespace create OAUTH_KV
-  "kv_namespaces": [{ "binding": "OAUTH_KV", "id": "REPLACE_WITH_KV_NAMESPACE_ID" }],
+  "kv_namespaces": [{ "binding": "OAUTH_KV", "id": "9927c5e4c413450d9959cb5dac21cd67" }],
 
   // First history import decodes a lot of protobuf; the default CPU budget is too small. Needs Workers Paid.
   "limits": { "cpu_ms": 300000 },
